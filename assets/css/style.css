@@ -1,0 +1,275 @@
+@font-face {
+    font-family: "Gotham";
+    src: url("../fonts/CENTURYGOTHIC.TTF");
+}
+
+@font-face {
+    font-family: "Beautiful";
+    src: url("../fonts/BEAUTIFULPEOPLEPERSONALUSE-PYP2.TTF");
+}
+
+@font-face {
+    font-family: "Debby";
+    src: url("../fonts/DEBBY.TTF");
+}
+
+@-webkit-keyframes autofill {
+    to {
+        color: #666;
+        background: transparent;
+    }
+}
+
+@keyframes autofill {
+    to {
+        color: #666;
+        background: transparent;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+html,
+body,
+h3,
+.view {
+    color: #EFFFFF;
+}
+
+header {
+    background-color: #1bb4de;
+    height: auto;
+}
+
+
+.md-form label {
+    color: #ffffff;
+}
+
+h6 {
+    line-height: 1.7;
+}
+
+
+.card {
+    margin-top: 30px;
+}
+
+.text-form {
+    font-size: 0.9em;
+}
+
+.text-center {
+    margin-top: 15px;
+}
+
+.md-form .form-control {
+    color: #fff;
+}
+
+form .form-control::-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+form .form-control:-ms-input-placeholder {
+    color: #fff;
+}
+
+form .form-control::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.btn.oranges {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E89424;
+    display: block;
+}
+
+.btn.oranges2 {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E89424;
+    display: block;
+    border-radius: 2.3rem;
+}
+
+.btn.oranges3 {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E89424;
+    display: block;
+    border-radius: 2.3rem;
+}
+
+.hr {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.intro-2 {
+    background-color: #1BB4DE;
+    background-size: cover;
+}
+
+.card {
+    background-color: #48C3E5;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.icon-key {
+    vertical-align: bottom;
+    display: table-cell;
+    padding-top: 5px;
+    float: right;
+    padding-left: 46px;
+    position: absolute;
+}
+
+.text-center.footer {
+    padding-top: 14px;
+    padding-bottom: 60px;
+}
+
+.form-control {
+    text-align: center;
+}
+
+.lang-list {
+    display: inline-flex;
+    list-style: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lang-list-single {
+    margin-left: 6px;
+    text-align: center;
+    filter: grayscale(79.4%);
+}
+
+.lang-list-single:hover {
+    filter: grayscale(0%);
+}
+
+.gift-icon {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+view img {
+    position: relative;
+}
+
+.text-centers {
+    width: 76%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.footer-text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.upload {
+    border-top: 1px solid #8FD3E6;
+    width: 47%;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.upload-top {
+    border-top: 1px solid #8FD3E6;
+    width: 47%;
+    margin-bottom: 2px;
+    margin-top: 5px;
+}
+
+.text-center.uploads {
+    font-size: 0.7em;
+}
+
+.upload-icon {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 14px;
+    padding-bottom: 0px;
+}
+
+.custom-gradient {
+    background: linear-gradient(40deg, #48c3e5, #303f9f) !important;
+}
+
+.choice-this {
+    position: absolute;
+    left: 59px;
+    top: 56px;
+    width: 70px;
+    height: 73px;
+}
+
+.choice-this2 {
+    position: absolute;
+    position: absolute;
+    top: 63px;
+    width: 87px;
+    height: 74px;
+    right: 63px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.template_uploadimage {
+    position: absolute;
+    left: 75px;
+    top: 136px;
+
+}
+
+.tempNameD {
+    position: absolute;
+    bottom: 78px;
+    color: #000;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-family: "Beautiful";
+}
+.tempNamei {
+    position: absolute;
+    bottom: 45px;
+    color: #2B2A28;
+    text-align: left;
+    margin-left: 37px;
+    margin-right: auto;
+    width: 100%;
+    font-family: "Debby";
+    font-size: 36px;
+}
+
+.buttons-group {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 22px;
+}
+
+ul.horizontal-fix li a {
+    padding: .84rem 2.14rem;
+}
